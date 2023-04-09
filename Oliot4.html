@@ -12,8 +12,13 @@
     <p id="talletus"></p>
     <p id="nosto"></p>
     <p id="saldoEnnen"></p>
+    <button type="button" onclick="tili.tiliNumero(); tili.naytaTiedot()">Syötä tilinumero </button>
     <button onclick="tili.talleta(); tili.naytaTiedot(); tili.naytaHistoria()">Talleta rahaa</button>
     <button onclick="tili.nosta(); tili.naytaTiedot(); tili.naytaHistoria()">Nosta rahaa</button>
-    <script src="Oliot4.js"></script>
+    <button onclick="tili.otaLainaa(); tili.naytaHistoria()">Ota lainaa</button>
+    <button onclick="tili.netto()">Nettosumma</button>
+    <button onclick="tili.luotto()">Luottosumma</button>
+    <button onclick="tili.lainanMaksu()">Maksa laina</button>
+    <script src="Oliot6"></script>
 </body>
 </html>
